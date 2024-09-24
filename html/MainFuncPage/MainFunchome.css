@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	background: linear-gradient(to top, rgba(0,0,0,0.3)20% , rgba(0,0,0,0.3)20%), url(MainFuncPics/mainfunc-3.png);
+	background-size: cover;
+	background-position: center;
+    font-family: sans-serif;
+    height: 109vh;
+}
+
+
+.form-group{
+    width: 1500px;
+    height: 1000px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:  20px;
+    
+}
+
+.form-group input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #025BAF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    position: center;
+}
+.form-group input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #5FD3FF; 
+    color: #000;
+}
+
+
+menu{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #5FD3FF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width:100%;
+}
+
+.menu{
+    width: 600;
+    height: 90px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    top: 0%;
+    left: 90%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:  20px;
+    
+}
+
+.content a{
+    font-family: inherit;
+}
+
+
+
+

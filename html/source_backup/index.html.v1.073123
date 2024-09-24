@@ -1,0 +1,53 @@
+
+<html>
+<title> Home Page </title>
+<head>
+    <link rel="stylesheet" type="text/css" href="Homepage-style.css">
+    <div class="Signupbox">
+    </div>
+</head>
+
+    
+    
+    
+<body>
+    <div class="background">
+        <div class="menu1"> </div>
+        <div class="menu">
+            <ul>
+                <li><a href="SignUp/signup-page.php">Signup</a></li>
+                <li><a href="Login/login-page.php">Login</a></li>
+                
+            </ul>
+    
+        </div>
+    </div>
+    
+    <div class="Section_top">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            <h1> <center> WELCOME TO CARPOOL4YOU </center> </h1>
+            
+            
+            <b> <center> This is a community carpool information sharing website for </center></b> <b> <center> parents in the San Juan school district, created by a student. </center></b> <b> <center>  Parents can create an account and post requests for carpooling </center></b> <b> <center> for school-related activities like drop-offs, pick-ups, sports meets,</center></b> <b> <center> club activities, etc. before or after school. Please only </center></b> <b> <center> post for these purposes. Be cautious about posting sensitive personal information, </center></b> <b> <center> as use of this site is at your own risk. The creator of this website is not </center></b> <b> <center> responsible for the consequences of misuse. Suggestions are welcome at carpool4you@gmail.com. </center></b> <b> <center> Please allow up to two days for a response. Thank you for your interest! </center></b>
+
+            
+            
+        
+        
+        
+        </div>
+    
+    
+    
+    
+    </div>
+    
+    
+
+
+
+</body>
+</html>

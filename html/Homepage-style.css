@@ -1,0 +1,102 @@
+
+
+.menu{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    top: 10%
+    
+}
+
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #5FD3FF;
+    position: absolute;
+    left: 400px;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	background: linear-gradient(to top, rgba(0,0,0,0.4)40% , rgba(0,0,0,0.4)40%), url(homepage-pics/mainfunc-4.png);
+	background-size: cover;
+	background-position: center;
+    font-family: sans-serif;
+    height: 109vh;
+    color: aliceblue;
+}
+
+
+.menu{
+    width: 450px;
+    height: 120px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    top: 80%;
+    left: 50%;
+    text-align: left;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:  20px;
+    
+}
+
+.content b{
+   
+    color:darkkhaki;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.content c{
+    
+    color: aliceblue;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.title{
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
